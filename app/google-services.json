@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "1054593605048",
+    "firebase_url": "https://blood-bridge-app-2023-default-rtdb.firebaseio.com",
+    "project_id": "blood-bridge-app-2023",
+    "storage_bucket": "blood-bridge-app-2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054593605048:android:029ce169c5daa285af434d",
+        "android_client_info": {
+          "package_name": "com.example.bloodbridgeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054593605048-e65uevscu5d91t90kf328qomg1ms9mop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWuGn8DfTDjiH4eTJDEXpTHGivPQGHh6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054593605048-e65uevscu5d91t90kf328qomg1ms9mop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054593605048:android:3b5fd416f10f59e7af434d",
+        "android_client_info": {
+          "package_name": "com.example.donorpage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054593605048-e65uevscu5d91t90kf328qomg1ms9mop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWuGn8DfTDjiH4eTJDEXpTHGivPQGHh6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054593605048-e65uevscu5d91t90kf328qomg1ms9mop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054593605048:android:545b897c64d7f0ffaf434d",
+        "android_client_info": {
+          "package_name": "com.example.questionnaire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054593605048-e65uevscu5d91t90kf328qomg1ms9mop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWuGn8DfTDjiH4eTJDEXpTHGivPQGHh6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054593605048-e65uevscu5d91t90kf328qomg1ms9mop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

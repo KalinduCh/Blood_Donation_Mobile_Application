@@ -1,0 +1,171 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <!-- Background section -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/top"
+        android:scaleType="centerCrop"
+        android:contentDescription="Background Image" />
+
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:text="Add Locations"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textLocationId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:text="NIC/ Unique ID"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/edit_locationId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewDate"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/black"
+        android:layout_marginTop="-77dp"
+        android:hint="Enter NIC / ID " />
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="76dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Date"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewDate"
+        android:textColor="@color/black"
+        android:hint="Enter date" />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDate"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:text="Time" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTime"
+        android:textColor="@color/black"
+        android:hint="Enter time" />
+
+    <TextView
+        android:id="@+id/textViewVenue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTime"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:text="Venue" />
+
+    <EditText
+        android:id="@+id/editTextVenue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewVenue"
+        android:textColor="@color/black"
+        android:hint="Enter venue" />
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextVenue"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:text="Description" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewDescription"
+        android:textColor="@color/black"
+        android:hint="Enter description" />
+
+    <TextView
+        android:id="@+id/textViewSpecialNotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDescription"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:text="Special Notice (Optional)" />
+
+    <EditText
+        android:id="@+id/editTextSpecialNotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewSpecialNotice"
+        android:textColor="@color/black"
+        android:hint="Enter special notice (optional)" />
+
+
+    <Button
+        android:id="@+id/buttonPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextSpecialNotice"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="0dp"
+        android:text="POST" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonPost"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-49dp"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/buttonUpdateD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonPost"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="309dp"
+        android:layout_marginTop="-49dp"
+        android:paddingTop="10dp"
+        android:text="Update" />
+
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Questionnaire"
+        tools:targetApi="33">
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionnaireCompletionReport"
+            android:exported="false" />
+        <activity
+            android:name=".HospitalDetail"
+            android:exported="false" />
+        <activity
+            android:name=".locationList"
+            android:exported="true" />
+        <activity
+            android:name=".ViewLocation"
+            android:exported="false" />
+        <activity
+            android:name=".AddLocation"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Questionnaire2"
+            android:exported="true" />
+        <activity
+            android:name=".Locations"
+            android:exported="true" />
+        <activity
+            android:name=".Questionnaire"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <!-- Add any additional intent filters if needed -->
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_g">
+
+    <!-- Background section -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/top"
+        android:scaleType="centerCrop"
+        android:contentDescription="Background Image" />
+
+    <TextView
+        android:id="@+id/heading_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:paddingLeft="20dp"
+        android:text="Edit Profile"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Profile Image"
+        android:src="@drawable/profile" />
+
+    <Button
+        android:id="@+id/upload_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Upload Picture" />
+
+    <EditText
+        android:id="@+id/full_name_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/upload_button"
+        android:textColor="@color/black"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="20dp"
+        android:hint="Full Name" />
+
+    <Spinner
+        android:id="@+id/gender_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/full_name_edittext"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="20dp"
+        android:hint="Gender"
+        android:entries="@array/gender_array" />
+
+    <EditText
+        android:id="@+id/date_of_birth_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="20dp"
+        android:layout_below="@id/gender_spinner"
+        android:hint="Date of Birth" />
+
+    <Spinner
+        android:id="@+id/marital_status_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="20dp"
+        android:layout_below="@id/date_of_birth_edittext"
+        android:hint="Marital Status"
+        android:entries="@array/marital_status_array" />
+
+    <EditText
+        android:id="@+id/nationality_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="20dp"
+        android:layout_below="@id/marital_status_spinner"
+        android:hint="Nationality" />
+
+    <EditText
+        android:id="@+id/mobile_number_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@id/nationality_edittext"
+        android:hint="Mobile Number" />
+
+    <EditText
+        android:id="@+id/address_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/mobile_number_edittext"
+        android:hint="Address" />
+
+    <EditText
+        android:id="@+id/district_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/address_edittext"
+        android:hint="District" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/district_edittext"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_alignParentEnd="true"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/district_edittext"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_toStartOf="@id/delete_button"
+        android:text="Save" />
+
+
+</RelativeLayout>
+

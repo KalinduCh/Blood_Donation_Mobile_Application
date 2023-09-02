@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Questionnaire</string>
+    <string name="save_info">Save info</string>
+    <string name="welcome">WELCOME</string>
+    <string name="my_profile">My Profile</string>
+    <string name="donate_now">Donate Now</string>
+    <string name="find_donors">Find Donors</string>
+    <string name="find_location">Find Location</string>
+</resources>

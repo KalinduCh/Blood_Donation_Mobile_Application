@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="marital_status_array">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Divorced</item>
+        <item>Widowed</item>
+    </string-array>
+
+</resources>
+
